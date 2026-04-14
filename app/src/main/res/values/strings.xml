@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Catatan Keuangan Pribadi</string>
+    <string-array name="kategori_array">
+        <item>Umum</item>
+        <item>Makanan</item>
+        <item>Transportasi</item>
+        <item>Gaji</item>
+        <item>Tagihan</item>
+        <item>Lainnya</item>
+    </string-array>
+
+</resources>

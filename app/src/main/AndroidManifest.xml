@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.projekakhir.catatankeuanganpribadi">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icons"
+        android:label="SiDompet"
+        android:roundIcon="@drawable/icons"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Splash screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Halaman utama -->
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true" />
+
+        <!-- Tambah transaksi -->
+        <activity
+            android:name=".activities.AddTransactionActivity"
+            android:exported="true" />
+
+        <!-- Edit transaksi -->
+        <activity
+            android:name=".activities.EditTransactionActivity"
+            android:exported="true" />
+
+        <!-- Daftar transaksi -->
+        <activity
+            android:name=".activities.TransactionListActivity"
+            android:exported="true" />
+
+        <!-- Tentang aplikasi -->
+        <activity
+            android:name=".activities.AboutActivity"
+            android:exported="false" />
+
+        <!-- Profil pengguna -->
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:exported="true" />
+
+        <!-- Receiver untuk notifikasi -->
+        <receiver
+            android:name=".reminder.ReminderReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

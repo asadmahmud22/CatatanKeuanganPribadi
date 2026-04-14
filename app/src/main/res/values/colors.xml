@@ -1,0 +1,24 @@
+<resources>
+    <!-- Warna utama -->
+    <color name="primaryColor">#2E7D32</color> <!-- Hijau stabil, cocok untuk keuangan -->
+    <color name="primaryDarkColor">#1B5E20</color> <!-- Hijau tua -->
+    <color name="accentColor">#FFC107</color> <!-- Kuning emas, untuk highlight -->
+
+    <!-- Warna latar & teks -->
+    <color name="backgroundColor">#F5F5F5</color> <!-- Abu muda -->
+    <color name="cardBackground">#FFFFFF</color> <!-- Putih bersih -->
+    <color name="textPrimary">#212121</color> <!-- Hitam pekat -->
+    <color name="textSecondary">#757575</color> <!-- Abu-abu teks ringan -->
+
+    <!-- Warna pendukung kategori -->
+    <color name="incomeColor">#4CAF50</color> <!-- Hijau untuk pemasukan -->
+    <color name="expenseColor">#F44336</color> <!-- Merah untuk pengeluaran -->
+    <color name="neutralColor">#9E9E9E</color> <!-- Abu netral -->
+
+    <!-- Warna status -->
+    <color name="successColor">#66BB6A</color>
+    <color name="warningColor">#FFA726</color>
+    <color name="errorColor">#E53935</color>
+    <color name="yellow">#F5B800</color>
+    <color name="white">#FFFFFF</color>
+</resources>
